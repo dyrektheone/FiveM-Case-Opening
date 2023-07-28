@@ -7,8 +7,7 @@ Standalone, highly customizable case opening resource.
 (it's an animation, the video can be found on the FiveM forum page)
 
 ![1](https://github.com/DyrekKing/FiveM-Case-Opening/assets/68273911/2fce8205-cd43-4615-bebe-2eae3b23c420)
-![2](https://github.com/DyrekKing/FiveM-Case-Opening/assets/68273911/7606702f-aed4-4227-820b-47efe5af5924)
-
+![3](https://github.com/DyrekKing/FiveM-Case-Opening/assets/68273911/bcc9c133-4509-4353-9fd0-de5393440e75)
 
 ## Features
 The resource can be triggered using the "case_opening:openCase" passing 2 arguments
@@ -26,4 +25,7 @@ end)
 - If the event gets triggered with an invalid case ID the result will be *false*
 - If a case is already opening the result will be *false*
 
-FiveM Forum Link: 
+## To-Do
+- The resource currently has no sound effects, I'm planning to add some
+
+FiveM Forum Link: https://forum.cfx.re/t/free-standalone-case-opening/
