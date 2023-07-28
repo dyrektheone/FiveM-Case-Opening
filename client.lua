@@ -24,3 +24,9 @@ RegisterNUICallback("SendResult",function(data,cb)
     caseCb = nil
     cb("503")
 end)
+
+RegisterCommand("open",function(_,args)
+    TriggerEvent("case_opening:openCase",args[1],function(result)
+        TriggerEvent("chat:addMessage","You opened "..tostring(result).."!")
+    end)
+end)
