@@ -14,10 +14,11 @@ The resource can be triggered using the "case_opening:openCase" passing 2 argume
   - case ID (specified in the config.js)
   - callback
 
-Example usage
+Example usage - Server Script
 ```lua
-TriggerClientEvent("case_opening:openCase",function("myCaseId",function(result)
-  print("Look! I got "..result)
+TriggerEvent("case_opening:server:openCase","caseID",playerID)
+RegisterNetEvent("case_opening:server:getReward",function(reward)
+    print("Yay! I won",reward)
 end)
 ```
 
