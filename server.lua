@@ -3,7 +3,6 @@ CasesOpening = {}
 RegisterNetEvent("case_opening:server:openCase",function(caseId, id)
     if CasesOpening[id] == nil then 
         CasesOpening[id] = 'yes'
-        print("opening")
         TriggerClientEvent("case_opening:client:openCase",id,caseId)
     end
 end)
