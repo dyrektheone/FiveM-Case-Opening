@@ -7,7 +7,7 @@ RegisterNetEvent("case_opening:client:openCase",function(caseID)
 
     caseOpeningNow = true
     SetNuiFocus(1,1)
-    print("asd")
+
     SendNUIMessage({
         OpenCase=caseID
     })
